@@ -1,0 +1,32 @@
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Env
+.env
+
+# Build
+dist/
+coverage/
+
+# Misc
+.cache/
