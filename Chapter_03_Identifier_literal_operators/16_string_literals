@@ -1,0 +1,31 @@
+ //single quotes
+ let singlequotes = 'Hello, World';
+ console.log(singlequotes); 
+
+ //double quotes
+ let doublequotes = "Hello, world";
+ console.log(doublequotes);
+
+
+ //problem with single quotes
+// let name = 'John's car';  not possible in this case because of the single quote in John's
+
+//solution 1: using double quotes
+let name1 = "John's car";
+console.log(name1);
+ 
+//template literals  // replace value in string using ${} and also can use backticks
+
+let name2 = "jyotsna";
+let full_name = `Hi , my name is ${name2}  rawat`;
+ console.log(full_name);
+
+
+ //back ticks
+ ``;//backticks are used for template literals and also for multi- line strings
+
+
+
+ let math = `2+2 = ${2+2}`;
+ console.log(math);
+

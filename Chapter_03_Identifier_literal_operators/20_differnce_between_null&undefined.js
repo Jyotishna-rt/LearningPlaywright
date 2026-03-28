@@ -1,0 +1,10 @@
+//equality comparisons
+
+console.log(null == undefined); //true ->>>>>>strict ->different types
+console.log(null === undefined); //false  
+
+console.log(null == 0); //false
+console.log(undefined == 0); //false
+
+console.log(null == ""); //false
+console.log(undefined == ""); //false
