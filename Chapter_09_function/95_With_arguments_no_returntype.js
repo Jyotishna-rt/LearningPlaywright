@@ -9,4 +9,4 @@ greetByname("jyotishna");
 greetByname("himashu");
 
 let name1 =  greetByname("sumit1");
-console.log(name1);
+console.log(name1);//undefined

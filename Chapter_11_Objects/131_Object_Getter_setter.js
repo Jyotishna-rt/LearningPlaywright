@@ -2,16 +2,17 @@
 const user = {
     firstname:"Jyotsna",
     lastname :"rawat",
-    get fullname(){
+    get fullName(){
         return this.firstname + this.lastname;
     },
-    set fullname(value){
+    set fullName(value){
         [this.firstname, this.lastname]= value.split("  ");
 
     }
 };
+//class is not like this in java 
+//typescript is going to use
 
-
-console.log(user.fullname);
-user.fullname = "Amit shah";
-console.log(user.fullname);
+console.log(user.fullName);
+user.fullName = "Amit shah";
+console.log(user.fullName);
