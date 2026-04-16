@@ -29,7 +29,8 @@ logBug({
 logBug({
     id : 2,
     titile : "Dashboard not working",
-    description : "The dashboard is not loading properly.",
+    description : "The dashboard is not loading properly
+    .",
     severity :"High",
     stepsToReproduce : ["Step1 : open the vwo.com", "Step2: Click on the login button", "Step3: Observe that nothing happens"]
 })

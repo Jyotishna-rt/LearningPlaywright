@@ -23,6 +23,12 @@ interface point{
     readonly y: number;
 }
 
-const p1: point = {x: 10, y: 20};
+const point: point = {x: 10, y: 20};//cannot modify
 
 */
+
+//readonly array
+interface Data{
+    readonly items: readonly number[]
+}
+

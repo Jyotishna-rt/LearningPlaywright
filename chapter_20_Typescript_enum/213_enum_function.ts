@@ -13,3 +13,5 @@ function logSeverity(severity: Severity): boolean{
 console.log("Is High Severity?", logSeverity(Severity.High));
 console.log("Is Medium Severity?", logSeverity(Severity.Medium));
 console.log("Is Low Severity?", logSeverity(Severity.Low));
+
+

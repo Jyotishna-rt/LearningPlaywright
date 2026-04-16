@@ -1,4 +1,5 @@
 //string index -> never used in playwright
+
 interface StringDictionary{
     [Key : string]: string;
 }
