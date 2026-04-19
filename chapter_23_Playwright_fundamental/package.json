@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "Repository for Playwright learning exercises and example scripts.",
   "main": "index.js",
-  "scripts": {
-    "run:196": "ts-node Chapter_18_Typescript/196_basic.ts",
-    "run:197": "ts-node Chapter_18_Typescript/197_ts_basics.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jyotishna-rt/LearningPlaywright.git"
@@ -21,8 +17,7 @@
   },
   "homepage": "https://github.com/Jyotishna-rt/LearningPlaywright#readme",
   "devDependencies": {
-    "@types/node": "^25.6.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^6.0.2"
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
   }
 }
